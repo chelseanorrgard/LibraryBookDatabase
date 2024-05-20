@@ -24,5 +24,8 @@ To implement Separation of Concerns for the Book class, the following mechanisms
    - Class Invariant: The Book class maintains consistency and validity after modifications made by staff, ensuring that the database remains accurate and up-to-date.
    - Usage: Library staff members access Book objects through a read-write interface, allowing them to make updates, corrections, or deletions to book records.
 
+### Code Files
+- `Book.js`: Contains the JavaScript implementation of the Book class, providing methods for accessing and modifying book information.
+
 ## Conclusion
 By adhering to the principle of Separation of Concerns, the library's book database effectively serves the distinct needs of both customers and staff, ensuring data integrity and usability.
